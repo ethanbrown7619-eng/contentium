@@ -1,0 +1,19 @@
+{
+  "name": "contentium",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Contentium — the ultimate content-creation suite. Five creative studios under one roof.",
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm --filter @contentium/web dev",
+    "build": "pnpm --filter @contentium/web build",
+    "preview": "pnpm --filter @contentium/web preview",
+    "typecheck": "pnpm -r --if-present typecheck",
+    "lint": "pnpm -r --if-present lint",
+    "test": "pnpm -r --if-present test"
+  },
+  "packageManager": "pnpm@10.33.0",
+  "engines": {
+    "node": ">=20"
+  }
+}

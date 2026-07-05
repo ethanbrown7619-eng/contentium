@@ -1,0 +1,38 @@
+# dependencies
+node_modules/
+.pnpm-store/
+
+# builds
+dist/
+build/
+*.tsbuildinfo
+
+# env & secrets
+.env
+.env.*
+!.env.example
+.dev.vars
+
+# cloudflare / wrangler
+.wrangler/
+.mf/
+
+# logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# editor / os
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# test output
+coverage/
+playwright-report/
+test-results/
+
+# scratch
+scratch/
+tmp/
